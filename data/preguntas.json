@@ -2,51 +2,52 @@
   "preguntasPorEnfrentamiento": 3,
   "preguntas": [
     {
-      "pregunta": "Te das cuenta de que cometiste un error en un reporte que ya enviaste a tu jefe y que nadie ha detectado. ¿Qué haces?",
+      "pregunta": "¿Qué es el profesionalismo?",
       "respuestas": [
-        ["Lo mando de nuevo, sin explicar en qué consistió el error.", 30],
-        ["No digo nada; si nadie lo notó, no tiene caso crear problemas.", 3],
-        ["Aviso de inmediato, explico el error y propongo cómo corregirlo.", 67]
+        ["Trabajar de acuerdo a nuestros conocimientos y en beneficio de la comunidad.", 23],
+        ["Trabajar con disciplina y respeto 60", 60],
+        ["Cumplir con las funciones encomendadas", 17]
       ]
     },
     {
-      "pregunta": "Un compañero cercano infla sus viáticos en pequeñas cantidades. Sabes que lo hace, pero es tu amigo. ¿Qué es lo que deberías hacer?",
+      "pregunta": " Un proveedor te regala un fin de semana en un hotel a cambio de que su empresa gane una licitación pública ¿Qué debes hacer?",
       "respuestas": [
-        ["Comentarlo con mi jefe inmediato, para que hable con él.", 30],
-        ["Hablo con él para invitarlo a corregir su conducta.", 15],
-        ["Reportarlo al Órgano Interno de Control.", 55]
+        ["Pedir la intervención de mi jefe inmediato.", 15],
+        ["Rechazar el regalo", 70],
+        ["Reportar el intento de soborno.", 15]
       ]
     },
     {
-      "pregunta": "Tu jefe te pide que presentes resultados \"redondeados hacia arriba\" para que el equipo luzca mejor ante la dirección. ¿Qué haces?",
+      "pregunta": "¿Cuál de los siguientes son principios fundamentales de la integridad pública?",
       "respuestas": [
-        ["Presento los datos reales sin decirle nada a mi jefe.", 20],
-        ["Altero solo un poco los números para quedar bien con todos.", 5],
-        ["Lo consulto con alguien de mayor rango.", 75]
+        ["Trabajar con dignidad y respeto.", 28],
+        ["Tratar a todos los ciudadanos con imparcialidad y equidad.", 52],
+        ["Vigilar que los beneficios sean equitativos para todos los ciudadanos.", 10]
+      ]
+    },
+{
+      "pregunta": " Descubres que un compañero está falsificando registros de asistencia ¿Cuál es la acción más integra?",
+      "respuestas": [
+        ["Trabajar con dignidad y respeto ", 28],
+        ["Tratar a todos los ciudadanos con imparcialidad y equidad ", 52],
+        ["Vigilar que los beneficios sean equitativos para todos los ciudadanos", 10]
       ]
     },
     {
-      "pregunta": "¿Cuáles de las siguientes acciones ayudan a mantener una buena convivencia e integridad entre las personas servidoras?",
+      "pregunta": "¿Qué se entiende por conflicto de interés en el servicio público?",
       "respuestas": [
-        ["Tratar con respeto a las y los compañeros, aun cuando hay diferentes opiniones.", 40],
-        ["Compartir el chisme de la oficina solo con tus personas de mayor confianza.", 2],
-        ["Evitando conductas de discriminación, acoso o violencia.", 58]
+        ["Una situación en la que los intereses personales del servidor público pueden influir en decisiones oficiales.", 67],
+        ["Tener que decidir entre obtener un beneficio personal o el beneficio social.", 30],
+        ["Problemas de dinero entre los servidores públicos.", 3]
       ]
     },
+
     {
-      "pregunta": "Eres servidor público y debes decidir a qué empresa se asigna un contrato. Descubres que una de las participantes es de un familiar cercano tuyo, pero nadie más sabe. ¿Qué haces?",
+      "pregunta": "Un ciudadano te ofrece dinero para agilizar un trámite que normalmente tarda varios días ¿Cuál es la conducta correcta?",
       "respuestas": [
-        ["Participo en la decisión, pero me aseguro de ser objetivo.", 3],
-        ["Dejo que mi equipo decida, pero superviso que gane la mejor oferta.", 40],
-        ["Declaro el conflicto de interés y me excuso de intervenir en el proceso.", 57]
-      ]
-    },
-    {
-      "pregunta": "Tu oficina tiene un vehículo oficial. Un fin de semana necesitas mover muebles en tu casa y nadie lo usará. ¿Qué es lo correcto?",
-      "respuestas": [
-        ["Usarlo, siempre que lo regrese con el tanque lleno.", 3],
-        ["Usarlo, pero avisar a mi superior.", 20],
-        ["No usarlo: los recursos públicos son solo para fines oficiales.", 77]
+        ["Aceptar, pero dejar que el trámite se realice con normalidad.", 15],
+        ["Rechazar el ofrecimiento y explicar el procedimiento oficial.", 65],
+        ["Confirmarlo de inmediato a la autoridad correspondiente.", 77]
       ]
     },
     {

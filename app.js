@@ -45,7 +45,7 @@
     const partidos = Array.from({ length: TOTAL }, (_, k) => ({
       id: `p${k + 1}`,
       k,
-      titulo: k === TOTAL - 1 ? 'Gran final' : `Enfrentamiento ${k + 1}`,
+      titulo: `Enfrentamiento ${k + 1}`,
       a: k === 0 ? { sorteo: 0 } : { ganador: `p${k}` },
       b: { sorteo: k + 1 },
       preguntas: preguntas.slice(k * N, (k + 1) * N)
@@ -140,7 +140,8 @@
       const resumen = equipos
         .map((nombre, i) => ({ nombre, pts: pts[i], wins: wins[i], fuera: fuera.has(i), campeon: false }))
         .sort((x, y) => y.pts - x.pts || y.wins - x.wins);
-      if (resumen.length) resumen[0].campeon = true;
+      // Campeón solo si el líder tiene puntaje mayor a cero (con 0 no cuenta).
+      if (resumen.length && resumen[0].pts > 0) resumen[0].campeon = true;
       return resumen;
     }
 
@@ -237,7 +238,7 @@
     }
 
     function slideMarcador() {
-      return `<section><h2>Marcador final acumulado</h2><div class="tabla" data-marcador></div><p class="ayuda">Rojo: equipo eliminado · ordenado por puntaje total</p></section>`;
+      return `<section data-slide="marcador"><h2>Marcador final acumulado</h2><div class="tabla" data-marcador></div><p class="ayuda">Rojo: equipo eliminado · ordenado por puntaje total</p></section>`;
     }
 
     function slideReserva(p, i, total) {
@@ -317,10 +318,23 @@
         else veredicto.textContent = `Faltan ${t.pendientes} elección(es) por registrar`;
       });
       const resumenFinal = marcadorGeneral();
-      const campeonGeneral = resumenFinal[0]?.nombre || 'Por definir';
+      const campeon = resumenFinal.find((e) => e.campeon);
       document.querySelectorAll('[data-campeon]').forEach((el) => {
-        el.textContent = campeonGeneral;
+        el.textContent = campeon ? campeon.nombre : 'Por definir';
       });
+      // La lámina de campeón se oculta de la presentación mientras nadie tenga
+      // puntaje mayor a cero; reaparece en cuanto hay un campeón.
+      const slideCampeon = document.querySelector('section.campeon');
+      const slideMarcadorFinal = document.querySelector('section[data-slide="marcador"]');
+      if (slideCampeon && slideMarcadorFinal) {
+        if (!campeon && slideCampeon.isConnected) {
+          slideCampeon.remove();
+          Reveal.sync();
+        } else if (campeon && !slideCampeon.isConnected) {
+          slideMarcadorFinal.before(slideCampeon);
+          Reveal.sync();
+        }
+      }
       document.querySelectorAll('[data-marcador]').forEach((el) => {
         el.innerHTML = resumenFinal.map((e) =>
           `<div class="fila${e.campeon ? ' campeon' : e.fuera ? ' perdedor' : ''}"><span>${esc(e.nombre)}</span><b>${e.pts}</b></div>`).join('');

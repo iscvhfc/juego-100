@@ -14,9 +14,10 @@ Aplicación tipo "100 Personas Servidoras Públicas dijeron" presentada con reve
 1. Se sortean 2 equipos al azar para el enfrentamiento 1 (p1).
 2. Cada enfrentamiento tiene 3 preguntas. Cada pregunta muestra 3 respuestas SIN puntaje; cada equipo elige una distinta (no pueden repetir) y se destapa su puntaje. Idealmente se elige la de mayor puntaje.
 3. Gana el equipo con más puntos sumados en las 3 preguntas del enfrentamiento (empate: botones de desempate). El perdedor queda eliminado.
-4. El ganador enfrenta a un equipo sorteado al azar de los restantes, y así sucesivamente: 9 equipos -> 8 enfrentamientos (p1-p8, el último es la Gran final) -> 24 preguntas.
+4. El ganador enfrenta a un equipo sorteado al azar de los restantes, y así sucesivamente: 9 equipos -> 8 enfrentamientos (p1-p8) -> 24 preguntas.
 5. La puntuación se reinicia en cada enfrentamiento: el ganador comienza de 0 contra su nuevo rival. Los puntos solo se acumulan en el "Marcador final acumulado" para decidir al campeón final.
 6. El campeón del torneo es el equipo con mayor puntaje total acumulado. Si hay empate, se define por más victorias en enfrentamientos; si sigue igual, se usa desempate directo.
+7. La lámina "Campeón del torneo" permanece oculta mientras el líder tenga 0 puntos acumulados (con 0 no cuenta); aparece al sumar puntos y también se quita el destacado dorado del marcador final.
 7. Reserva: 3 preguntas extra (27 en total) al final de la presentación, para respaldo o desempate en vivo.
 
 ## Supuestos (confirmar con el usuario)
@@ -53,3 +54,5 @@ Aplicación tipo "100 Personas Servidoras Públicas dijeron" presentada con reve
 - 2026-10-03: Se actualizó el nombre del juego a "100 Personas Servidoras Públicas dijeron" y se incorporó la imagen de portada `img/portada.png` en la primera diapositiva.
 - 2026-10-03: Se ajustó el tamaño de la imagen de portada para que ocupe un espacio visible más grande, manteniendo el diseño centrado y equilibrado.
 - 2026-10-03: Se dejó la configuración lista para despliegue en GitHub Pages mediante `.github/workflows/pages.yml` y `.nojekyll`.
+- 2026-10-04: Se cambió el título del último enfrentamiento de "Gran final" a "Enfrentamiento 8" (láminas de enfrentamiento y de resultado).
+- 2026-10-04: La lámina de campeón se oculta mientras el puntaje acumulado del líder sea 0 (reaparece con `Reveal.sync()` al haber un campeón).

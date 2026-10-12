@@ -63,3 +63,4 @@ Aplicación tipo "100 Personas Servidoras Públicas dijeron" presentada con reve
 - 2026-10-12: Se actualizaron las preguntas en `data/preguntas.json` y las imágenes de portada (`img/portada.png`, `img/VA-portada.png`, `img/portada.jpeg`).
 - 2026-10-12: Se actualizaron las preguntas en `data/preguntas.json` y las imágenes de portada (`img/portada.png`, `img/VA-portada.png`, `img/portada.jpeg`).
 - 2026-10-12: Se actualizaron las preguntas en `data/preguntas.json` y las imágenes de portada (`img/portada.png`, `img/VA-portada.png`, `img/portada.jpeg`).
+- 2026-10-12: Se actualizaron las preguntas en `data/preguntas.json` y las imágenes de portada (`img/portada.png`, `img/VA-portada.png`, `img/portada.jpeg`).

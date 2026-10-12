@@ -57,3 +57,4 @@ Aplicación tipo "100 Personas Servidoras Públicas dijeron" presentada con reve
 - 2026-10-04: Se cambió el título del último enfrentamiento de "Gran final" a "Enfrentamiento 8" (láminas de enfrentamiento y de resultado).
 - 2026-10-04: La lámina de campeón se oculta mientras el puntaje acumulado del líder sea 0 (reaparece con `Reveal.sync()` al haber un campeón).
 - 2026-10-12: Se actualizaron las preguntas en `data/preguntas.json` y las imágenes de portada (`img/portada.png`, `img/VA-portada.png`, `img/portada.jpeg`).
+- 2026-10-12: Se actualizaron las preguntas en `data/preguntas.json` y las imágenes de portada (`img/portada.png`, `img/VA-portada.png`, `img/portada.jpeg`).

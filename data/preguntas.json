@@ -5,7 +5,7 @@
       "pregunta": "¿Qué es el profesionalismo?",
       "respuestas": [
         ["Trabajar de acuerdo a nuestros conocimientos y en beneficio de la comunidad.", 23],
-        ["Trabajar con disciplina y respeto 60", 60],
+        ["Trabajar con disciplina y respeto", 60],
         ["Cumplir con las funciones encomendadas", 17]
       ]
     },
@@ -147,54 +147,6 @@
       ]
     },
     {
-      "pregunta": "Un ciudadano te ofrece dinero para agilizar un trámite que normalmente tarda varios días. ¿Cuál es la conducta correcta?",
-      "respuestas": [
-        ["Pedir que el pago se haga a un familiar en vez de a ti", 1],
-        ["Aceptar solo si nadie más se entera", 0],
-        ["Rechazar el ofrecimiento y explicar el procedimiento oficial", 99]
-      ]
-    },
-    {
-      "pregunta": "¿Qué se entiende por conflicto de intereses en el servicio público?",
-      "respuestas": [
-        ["Un desacuerdo con las políticas de la institución", 3],
-        ["Una situación en la que los intereses personales del servidor público pueden influir en sus decisiones oficiales", 92],
-        ["Una discusión entre compañeros de trabajo", 5]
-      ]
-    },
-    {
-      "pregunta": "Descubres que un compañero está falsificando registros de asistencia. ¿Cuál es la acción más íntegra?",
-      "respuestas": [
-        ["Reportarlo a través de los canales institucionales correspondientes", 93],
-        ["Hablar mal de él con otros compañeros", 1],
-        ["Ignorarlo porque no es tu responsabilidad", 6]
-      ]
-    },
-    {
-      "pregunta": "¿Cuál de los siguientes es un principio fundamental de la integridad pública?",
-      "respuestas": [
-        ["Favorecer a familiares y amigos en trámites", 1],
-        ["Tratar a todos los ciudadanos con imparcialidad y equidad", 96],
-        ["Resolver primero los casos más sencillos, sin importar el orden de llegada", 3]
-      ]
-    },
-    {
-      "pregunta": "Un proveedor te regala un fin de semana en un hotel a cambio de que su empresa gane una licitación pública. ¿Qué debes hacer?",
-      "respuestas": [
-        ["Rechazar el regalo y, si corresponde, reportar el intento de soborno", 97],
-        ["Aceptarlo, pero votar de forma imparcial en la licitación", 0],
-        ["Pedir que el regalo sea más discreto", 3]
-      ]
-    },
-    {
-      "pregunta": "¿Qué es el profesionalismo?",
-      "respuestas": [
-        ["Estudiar una licenciatura", 4],
-        ["Cumplir con las funciones encomendadas", 23],
-        ["Trabajar con disciplina y respeto", 73]
-      ]
-    },
-    {
       "pregunta": "¿Quién merece la competencia por mérito?",
       "respuestas": [
         ["De acuerdo a su habilidad profesional", 65],
@@ -216,6 +168,49 @@
         ["Su forma de vestir", 1],
         ["Trabaja de acuerdo a los principios y valores", 29],
         ["Son guía y ejemplo para sus colaboradores", 70]
+      ]
+    },
+    {
+      "pregunta": "Te das cuenta de que cometiste un error en un reporte que ya enviaste a tu jefe y que nadie ha detectado. ¿Qué haces?",
+      "respuestas": [
+        ["Espero a que alguien lo descubra y entonces me justifico.", 12],
+        ["No digo nada; si nadie lo notó, no tiene caso crear problemas.", 2],
+        ["Aviso de inmediato, explico el error y propongo cómo corregirlo.", 86]
+      ]
+    },{
+      "pregunta": "Un compañero cercano infla sus viáticos en pequeñas cantidades. Sabes que lo hace, pero es tu amigo. ¿Qué es lo más íntegro?",
+      "respuestas": [
+        ["Comentarlo con otros compañeros para presionarlo.", 10],
+        ["Hablar primero con él, y si no corrige su conducta, usar los canales de reporte de la empresa.", 89],
+        ["Hacer lo mismo, porque si él puede, yo también.",1]
+      ]
+    },{
+      "pregunta": "Tu jefe te pide que presentes resultados (redondeados hacia arriba) para que el equipo luzca mejor ante la dirección. ¿Qué haces?",
+      "respuestas": [
+        ["Presento los datos reales sin decirle nada a mi jefe.",15],
+        ["Altero solo un poco los números para quedar bien con todos.", 20],
+        ["Presento los datos reales y explico respetuosamente por qué no puedo alterarlos.", 65]
+      ]
+    },{
+      "pregunta": "Una persona de otra secretaría te comparte por error información confidencial, que podría beneficiar tu trabajo. ¿Qué haces?",
+      "respuestas": [
+        ["La guardo por si me sirve más adelante.", 23],
+        ["La comparto solo con mi jefe para que decida qué hacer.", 59],
+        ["Uso la información; no fue mi culpa recibirla.", 18]
+      ]
+    },{
+      "pregunta": "Eres servidor público y debes decidir a qué empresa se asigna un contrato. Descubres que una de las participantes es de un familiar cercano tuyo, pero nadie más sabe. ¿Qué haces?",
+      "respuestas": [
+        ["Participo en la decisión, pero me aseguro de ser objetivo.", 33],
+        ["Dejo que mi equipo decida, pero superviso que gane la mejor oferta.", 29],
+        ["Declaro el conflicto de interés y me excuso de intervenir en el proceso.", 38]
+      ]
+    },{
+      "pregunta": "Tu oficina tiene un vehículo oficial. Un fin de semana necesitas mover muebles en tu casa y nadie lo usará. ¿Qué es lo correcto?",
+      "respuestas": [
+        ["Usarlo, siempre que lo regrese con el tanque lleno.", 9],
+        ["Usarlo solo si mi jefe no se entera.", 7],
+        ["No usarlo: los recursos públicos son solo para fines oficiales. ", 84]
       ]
     }
   ],
